@@ -5,8 +5,6 @@ import Players from './pages/Players';
 import Game from './pages/Game';
 import SavedGames from './pages/SavedGames';
 import Contact from './pages/Contact';
-import './reset.css';
-import './App.css';
 
 const App = () => (
   <Router>
