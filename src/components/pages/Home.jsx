@@ -1,8 +1,15 @@
-import React from "react";
+import React from 'react';
+import MenuButton from '../MenuButton';
+import './Home.css';
 
 const Home = () => (
-    <div>
-        <h1>Main Menu</h1>
+    <div className="wrapper">
+        <h1>CONNECT 4</h1>
+        <div id="menu">
+            <MenuButton label="New Game" link="players" />
+            <MenuButton label="Load Game" link="savedgames" />
+            <MenuButton label="Contact" link="contact" />
+        </div>
     </div>
 )
 
