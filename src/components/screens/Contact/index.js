@@ -1,6 +1,6 @@
+import './style.css';
 import React from 'react';
-import './Contact.css';
-import ContactForm from '../ContactForm';
+import ContactForm from './ContactForm';
 
 const Contact = () => (
     <div className="wrapper">

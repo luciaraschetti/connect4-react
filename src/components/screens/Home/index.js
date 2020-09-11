@@ -1,6 +1,6 @@
+import './style.css';
 import React from 'react';
-import './Home.css';
-import MenuButton from '../MenuButton';
+import MenuButton from './MenuButton';
 
 const Home = () => (
     <div className="wrapper">

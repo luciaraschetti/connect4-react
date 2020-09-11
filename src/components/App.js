@@ -1,10 +1,10 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import Home from './pages/Home';
-import Players from './pages/Players';
-import Game from './pages/Game';
-import SavedGames from './pages/SavedGames';
-import Contact from './pages/Contact';
+import Home from './screens/Home';
+import Players from './screens/Players/Players';
+import Game from './screens/Game';
+import SavedGames from './screens/SavedGames/SavedGames';
+import Contact from './screens/Contact';
 
 const App = () => (
   <Router>
