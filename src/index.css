@@ -34,4 +34,17 @@ h1 {
 color: #5e6491;
 }
 
+.hidden {
+    display: none !important;
+}
+
+.disabled {
+    color: #b8b8b8 !important;
+    pointer-events: none;
+}
+
+.error {
+    background-color: #b85e5e !important;
+}
+
 

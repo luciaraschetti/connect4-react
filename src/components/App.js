@@ -1,9 +1,9 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Home from './screens/Home';
-import Players from './screens/Players';
-import Game from './screens/Game';
 import SavedGames from './screens/SavedGames';
+import Game from './screens/Game';
+import Players from './screens/Players';
 import Contact from './screens/Contact';
 
 const App = () => (

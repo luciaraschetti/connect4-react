@@ -29,7 +29,7 @@ label {
     color: #5a5a5a;
 }
 
-input,
+input.entry,
 textarea {
     width: 100%;
     margin-bottom: 25px;
@@ -44,7 +44,7 @@ textarea {
     color: #2A4F5F;
 }
 
-input:focus {
+input.entry:focus {
     outline: none;
     border-bottom: 2px solid #5e6491;
 }

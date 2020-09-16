@@ -1,0 +1,33 @@
+
+.input-style {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+input.player {
+    width: 100%;
+    margin: 0.5em 0;
+    padding: 0.25em;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 2px white;
+    border-radius: 10px 0 0 10px; 
+    border-width: 0px; 
+    font-size: 2rem;
+}
+
+input.player:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #5e6491;
+}
+
+.tag {
+    padding: 0.74em 1.5em;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 0 0 0 2px #5e6491;
+    background-color: #5e6491;
+    font-size: 1.25rem;
+    color: #ffffff;
+}
