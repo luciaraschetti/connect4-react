@@ -31,7 +31,7 @@ label {
 
 input.entry,
 textarea {
-    width: 100%;
+    width: 100% !important;
     margin-bottom: 25px;
     padding: 5px;
     box-sizing: border-box;
